@@ -1,0 +1,20 @@
+**copy** performs a deep clone on the supplied value. It currently supports
+circular (and non-circular) references, dates, regular expressions, functions,
+buffers and typed arrays. Note that copied buffers and typed arrays will still
+be views to the same underlying source.
+
+### Usage
+
+```javascript
+require('copy')([ 1, 2, 3, { a: 'b' } ]) // -> [ 1, 2, 3, { a: 'b' } ]
+```
+
+### Installation
+
+```
+npm install copy
+```
+
+### License
+
+Public domain.
