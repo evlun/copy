@@ -1,5 +1,8 @@
-{
-  "name": "copy",
-  "version": "0.0.0",
-  "author": "Erik Lundin"
+{ "name": "copy"
+, "version": "0.0.1"
+, "description": "Create deep clones of JavaScript objects"
+, "keywords": ["deep", "clone", "copy", "identical"]
+, "author": "Erik Lundin"
+, "homepage": "https://github.com/evlun/copy"
+, "main": "copy.js"
 }
